@@ -1,0 +1,14 @@
+export const allPermissions = {
+  user : ["GET_ALL_USER","MANAGE_ALL_USER", "EDIT_ALL_USER", "ADD_ALL_USER", "DELETE_ALL_USER"],
+  role: ["GET_ALL_ROLE", "MANAGE_ALL_ROLE", "EDIT_ALL_ROLE", "ADD_ALL_ROLE", "DELETE_ALL_ROLE"],
+  project: ["MANAGE_ALL_PROJECT", 'GET_ALL_PROJECT'],
+  post: ['MANAGE_ALL_POST'],
+  request: ['MANAGE_ALL_REQUEST'],
+  report: ['MANAGE_ALL_REPORT'],
+  issue: ['MANAGE_ALL_ISSUE'],
+  label: ['MANAGE_ALL_LABEL'],
+  board: ["ADD_ALL_BOARD", "EDIT_ALL_BOARD","DELETE_ALL_BOARD"],
+  member: ["ASSIGN_ALL_MEMBER", "EDIT_ALL_MEMBER"],
+  task: ["ADD_ALL_TASK", "EDIT_ALL_TASK","DELETE_ALL_TASK"],
+  comment: ["EDIT_ALL_COMMENT", "DELETE_ALL_COMMENT"],
+}

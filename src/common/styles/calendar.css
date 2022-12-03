@@ -1,0 +1,18 @@
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content{
+    overflow-x: hidden;
+}
+/* width */
+.calender-event::-webkit-scrollbar, .ant-picker-calendar-date-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.calender-event::-webkit-scrollbar,.ant-picker-calendar-date-content::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+.calender-event::-webkit-scrollbar,.ant-picker-calendar-date-content::-webkit-scrollbar-thumb {
+    background: #A8A8A8;
+    border-radius: 6px;
+}

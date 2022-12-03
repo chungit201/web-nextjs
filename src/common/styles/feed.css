@@ -1,0 +1,223 @@
+.antd-comment-nested {
+    border-left: 1px dashed #afafaf!important;
+    padding-left: 16px!important;
+}
+
+.comment-post {
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.comment-post p {
+    position: absolute;
+    content: "";
+    height:27px;
+    width: 25px;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-bottom-left-radius: 20px;
+    top: -8px;
+    left: -29px;
+}
+
+.comment-action {
+    display: none;
+}
+
+.comment-post__content:hover .comment-action {
+    display: block;
+}
+
+.comment-post__list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.comment-post__user {
+    margin-right: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-post__avatar {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.comment-post__straight-line {
+    width: 1px;
+    background-color: #e6e6e6;
+    flex: 1;
+}
+
+.comment-post__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comment-post__box {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+}
+
+.comment-post__username {
+    font-size: 15px;
+    color: #050505;
+    font-weight: 500;
+}
+
+.comment-post__user img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-post__text {
+
+}
+
+.comment-post__action {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.comment-post__action-item {
+    color: #65676b;
+    font-weight: 500;
+}
+
+.comment-post__action-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.comment-post__action-dot {
+    padding: 0 4px;
+}
+
+.comment-post__reply-counter {
+    position: relative;
+    padding-left: 15px;
+}
+
+.comment-post__reply-counter:before {
+    /*position: absolute;*/
+    /*content: "";*/
+    /*height:25px;*/
+    /*width: 25px;*/
+    /*border-left: 1px solid #e6e6e6;*/
+    /*border-bottom: 1px solid #e6e6e6;*/
+    /*border-bottom-left-radius: 20px;*/
+    /*top: -14px;*/
+}
+
+.comment-post__reply-counter span {
+    padding-left: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.comment-post__reply-counter span:hover {
+    text-decoration: underline;
+}
+
+.comment-post__reply-input {
+    position: relative;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    padding-left: 45px;
+    margin-bottom: 10px;
+}
+
+.comment-post__reply-input:before {
+    position: absolute;
+    content: "";
+    height:60px;
+    width: 25px;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-bottom-left-radius: 20px;
+    top: -41px;
+    left: 15px;
+}
+
+.comment-post__reply-input form {
+    margin-left: 12px;
+    width: 100%;
+}
+
+.comment-post__reply-input form input {
+    flex: 1;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+}
+
+.comment-post__reply-list {
+    align-self: stretch;
+}
+
+.comment-input-main {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.post-button-action {
+    flex: 1;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.post-button-action:hover {
+    background-color: #F0F2F5;
+}
+
+.button-see-more {
+    margin: 12px 0 8px 0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-see-more:hover {
+    text-decoration: underline;
+}
+
+.convert-markdown-post > .ant-typography.ant-typography-danger, code{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    color: #000000d9!important;
+    font-size: 13px;
+    direction: ltr;
+    text-align: left;
+    background: #f5f5f5;
+    border: none;
+}
+
+.convert-markdown-post pre {
+    background: #f5f5f5;
+    padding: 12px
+}

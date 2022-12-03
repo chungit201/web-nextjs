@@ -1,0 +1,29 @@
+.comment-list {
+  .comment-l1 {
+    .author {
+      .comment-content {
+        padding: 14px;
+        border-radius: 16px;
+        background-color: #f0f2f5;
+      }
+      @media (min-width:800px){
+        .padding-lg-2{
+          padding: 48px
+        }
+      }
+
+    }
+  }
+
+  .comment-l2 {
+    margin-left: 2.5rem !important;
+
+    .author {
+      .comment-content {
+        padding: 14px;
+        border-radius: 16px;
+        background-color: #f0f2f5;
+      }
+    }
+  }
+}

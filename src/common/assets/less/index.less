@@ -1,0 +1,24 @@
+@import 'styles/variables/_colors.less';
+@import 'styles/components/feedback/_spin.less';
+
+.loading {
+
+    .ant-spin {
+        color: @primary-color;
+    }
+}
+.convert-markdown-post img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.weather-widget {
+    ::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+        //background: #FF0000;
+    }
+}
