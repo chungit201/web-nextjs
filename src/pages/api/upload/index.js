@@ -1,4 +1,4 @@
-import { auth, connectDB, validate, upload } from "server/middleware";
+import { auth, connectDB, validate, upload } from "../../../server/middlewares";
 import { userController } from "server/controllers";
 import middlewares from "server";
 import { runMiddleware } from "server/utils/middleware-handler";
