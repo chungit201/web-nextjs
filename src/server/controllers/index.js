@@ -1,8 +1,8 @@
-export * as authController from './auth.controller';
-export * as userController from './user.controller';
-export * as roleController from './role.controller';
-export * as departmentController from './department.controller';
-export * as postController from './post.controller';
+module.exports.authController =  require('./auth.controller');
+module.exports.userController = require('./user.controller') ;
+module.exports.roleController = require('./role.controller') ;
+module.exports.departmentController = require('./department.controller');
+module.exports.postController = require('./post.controller') ;
 module.exports.taskController = require('./task.controller');
 module.exports.projectController = require('./project.controller');
 module.exports.commentController = require('./comment.controller');

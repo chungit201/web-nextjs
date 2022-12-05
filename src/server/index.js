@@ -10,7 +10,6 @@ import {jwtStrategy} from 'server/config/passport.config';
 import {runMiddleware} from "server/utils/middleware-handler";
 import {roleCheckerMiddleware} from "server/middlewares/role-checker.middleware";
 
-
 async function middlewares(req, res) {
   // Run the middleware
   if (config.env !== 'test') {
