@@ -145,7 +145,7 @@ const Profile = (props) => {
 
 export const getServerSideProps = async (context) => {
   const res = context;
-  const auth = require("server/utils/auth");
+  const auth = require("../../../server/utils/auth");
   const {userService} = require("server/services");
   let user = {};
   const {userId} = context.query

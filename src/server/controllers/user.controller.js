@@ -99,15 +99,15 @@ export const getSelfProjects = async (req, res) => {
 export const getTasks = async (req, res) => {
   const filter = pick(req.query, ['name', 'state']);
   const options = pick(req.query, ['sortBy', 'page', 'limit']);
-  const tasks = await userService.getTasks(req.query.userId, filter, options);
+  // const tasks = await userService.getTasks(req.query.userId, filter, options);
   res.json(tasks);
 };
 
 export const getSelfTasks = async (req, res) => {
   const filter = pick(req.query, ['name', 'state']);
   const options = pick(req.query, ['sortBy', 'page', 'limit']);
-  const tasks = await userService.getTasks(req.user._id, filter, options);
-  res.json(tasks);
+  // const tasks = await userService.getTasks(req.user._id, filter, options);
+  // res.json(tasks);
 };
 
 export const disconnectWakatime = async (req, res) => {
